@@ -17,14 +17,5 @@ export function Header({title,}: HeaderProps){
     )
 }
 
-export function Footer({img}:FooterProps){    
-    return (
-        <footer className="footer">
-            <a target="_blank" href="https://github.com/kri6beats">
-                <span>gitHub</span>
-            </a>
-                <div className="img">{img}</div>
-        </footer>
-    );
-}
+
 

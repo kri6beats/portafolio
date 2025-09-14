@@ -3,11 +3,12 @@ type CardProps = {
   name: string;
   description: string;
   img: string;
-  link: string
+  link: string;
+  children?: React.ReactNode;
 };
 
 
-export function Card({ name, description, img ,link}: CardProps){
+export function Card({ name, description, img ,link,children}: CardProps){
   return (
     <div className="card">
     <a href={link} target="_blank" rel="noopener noreferrer" >
@@ -15,6 +16,9 @@ export function Card({ name, description, img ,link}: CardProps){
     </a>
       <h3 >{name}</h3>
       <p>{description}</p>
+      <div className="card-icon">{children}</div> 
     </div>
+    
+    
   );
 }

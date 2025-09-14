@@ -55,11 +55,29 @@ body {
 
 .card h3 {
   font-size: 1.6rem;
-  color: #8ecae6; /* azul claro */
+  color: #8ecae6; 
   margin-bottom: 0.5rem;
 }
 
 .card span {
   font-size: 1rem;
-  color: #cdb4db; /* morado suave */
+  color: #cdb4db; 
+}
+
+/* El contenedor de los íconos */
+.card-icon {
+  display: flex;          
+  flex-direction: row;    
+  justify-content: center;
+  align-items: center;    
+  gap: 0.5rem;            
+  margin-top: 1rem;
+}
+
+/* Cada imagen dentro del contenedor */
+.card-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 50%;  
 }
