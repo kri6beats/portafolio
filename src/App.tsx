@@ -1,5 +1,5 @@
 
-import  FloatingChat  from "./floatingChat";
+import  FloatingChat  from "./FloatingChat";
 import { Card } from "./Card";
 import { Header } from "./headerFooter";
 

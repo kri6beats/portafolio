@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ChatBubble } from "./bubble";
+import { ChatBubble } from "./Bubble";
 import "./floatingChats.css";
 import AI from "./assets/AI.png";
 
