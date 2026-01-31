@@ -1,0 +1,81 @@
+{
+  "name": "Edwin Alonso Jiménez Rojas",
+  "contact": {
+    "email": "msjear23@gmail.com",
+    "phone": "+57 317 677 1634",
+    "location": "Medellín, Colombia"
+  },
+  "professional_profile": "Software Analysis and Development Technician with experience in web and desktop application development. Participated in billing system implementation, database management, API consumption, application refactoring, and user interface creation. Skilled in CSS, HTML, JavaScript, jQuery, PHP, React, and Python. Over 10 years of experience in the graphic arts sector, which strengthened design sense, operational leadership, and attention to detail. Strong teamwork, emotional intelligence, positive attitude, and attention to detail.",
+  "experience": [
+    {
+      "role": "Full-Stack Developer (Internship)",
+      "company": "Government of Antioquia",
+      "location": "Medellín, Colombia",
+      "period": "August 2024 – January 2025",
+      "achievements": [
+        "Designed and developed dynamic web interfaces using JavaScript, DataTables, and Bootstrap, improving user experience.",
+        "Refactored 50% of an existing application, enhancing performance and automating Central Bank API queries.",
+        "Implemented PHPSpreadsheet for automated Excel report generation, reducing analysis time."
+      ]
+    },
+    {
+      "role": "Full-Stack Developer Freelancer",
+      "company": "Independent Projects",
+      "period": "2023 – Present",
+      "projects": [
+        "Linker Web App (Linktree-type): responsive platform using HTML5, CSS3, JavaScript, and Bootstrap.",
+        "API Integration: web app connecting maps and weather APIs to show real-time data.",
+        "Web Security: implemented encryption and secure authentication best practices."
+      ]
+    },
+    {
+      "role": "Graphic Designer / Prepress Specialist / Large Format Printer",
+      "company": "Various Graphic Arts Companies",
+      "location": "Medellín, Colombia",
+      "period": "2008 – 2020",
+      "summary": "Worked in graphic arts both in companies and as a freelancer, ensuring quality and client satisfaction."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Professional Technician in Software Analysis and Development",
+      "institution": "CENSA",
+      "location": "Medellín, Colombia",
+      "period": "August 2022 – June 2025"
+    },
+    {
+      "degree": "Technologist in Graphic Production",
+      "institution": "SENA",
+      "location": "Medellín, Colombia",
+      "period": "January 2012 – June 2015"
+    }
+  ],
+  "certifications": [
+    "Google Cloud Fundamentals: Core Infrastructure – Coursera",
+    "Architecting with Google Kubernetes Engine – Coursera",
+    "Information Security – CENSA",
+    "Introduction to C++ – Udemy",
+    "Python Essentials 1 – Cisco (MinTIC)",
+    "Agile Methodologies – Universidad Católica de Oriente (Comfama)",
+    "Introduction to Modern AI – Cisco (MinTIC)"
+  ],
+  "technical_skills": {
+    "languages": ["JavaScript (ES6+)", "PHP", "CSS", "Python"],
+    "frameworks_libraries": ["CodeIgniter 4", "Bootstrap", "React (learning)", "Tailwind"],
+    "databases": ["MySQL"],
+    "tools": ["Git", "Linux", "Docker", "DOMPDF", "PHPSpreadsheet"],
+    "methodologies": ["Kanban", "Scrum (Agile Development)"]
+  },
+  "languages": {
+    "Spanish": "Native",
+    "English": "A2 (currently studying at B1 level)"
+  },
+  "soft_skills": [
+    "Problem-solving",
+    "Analytical thinking",
+    "Teamwork and effective communication",
+    "Adaptability and continuous learning",
+    "Creativity and innovation"
+  ],
+  "goals": "Continue learning and growing professionally in software development, improving English skills, and participating in projects that integrate technology and design."
+}

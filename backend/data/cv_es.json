@@ -1,0 +1,179 @@
+{
+  "nombre": "Edwin Alonso Jiménez Rojas",
+  "contacto": {
+    "correo": "msjear23@gmail.com",
+    "telefono": "+57 317 677 1634",
+    "ubicacion": "Medellín, Colombia"
+  },
+  "perfil_profesional": "Técnico en Análisis y Desarrollo de Software con experiencia en el desarrollo de aplicaciones web y de escritorio. He participado en la implementación de sistemas de facturación, manejo de bases de datos, consumo de APIs, refactorización de aplicaciones y creación de interfaces de usuario. Cuento con habilidades en CSS, HTML, JavaScript, jQuery, PHP, React y Python. Además, tengo más de 10 años de trayectoria en el sector de artes gráficas, lo que ha fortalecido mi sentido del diseño, liderazgo operativo y atención al detalle. Me destaco por competencias laborales como trabajo en equipo, inteligencia emocional, buena actitud, aptitud y orientación al detalle.",
+  "experiencia_profesional": [
+    {
+      "cargo": "Full-Stack Developer (Pasantía)",
+      "empresa": "Gobernación de Antioquia",
+      "ubicacion": "Medellín, Colombia",
+      "periodo": "Agosto 2024 – Enero 2025",
+      "logros": [
+        "Diseñé y desarrollé interfaces web dinámicas utilizando JavaScript, DataTables y Bootstrap, mejorando la experiencia y agilidad del usuario.",
+        "Refactoricé aproximadamente el 50% de una aplicación existente, mejorando el rendimiento y reduciendo procesos manuales mediante la automatización de consultas al API del Banco de la República.",
+        "Implementé la librería PHPSpreadsheet para la generación automatizada de reportes en Excel, reduciendo los tiempos de análisis de datos para el usuario."
+      ]
+    },
+    {
+      "cargo": "Desarrollador Full-Stack Freelancer",
+      "empresa": "Proyectos Independientes",
+      "periodo": "2023 – Actualidad",
+      "proyectos": [
+        "Linker Web App (tipo Linktree): desarrollo de una plataforma responsive para la gestión de enlaces utilizando HTML5, CSS3, JavaScript y Bootstrap.",
+        "Integración de APIs: aplicación web que conecta la API de mapas y la API de clima, mostrando información en tiempo real basada en la geolocalización.",
+        "Seguridad Web: implementación de buenas prácticas de encriptación y autenticación segura en proyectos personales."
+      ]
+    },
+    {
+      "cargo": "Diseñador Gráfico / Especialista en Preprensa / Impresor Gran Formato",
+      "empresa": "Empresas del sector gráfico (varias)",
+      "ubicacion": "Medellín, Colombia",
+      "periodo": "2008 – 2020",
+      "resumen": "Durante estos años trabajé en el sector de artes gráficas, en empresas y como freelance, cumpliendo con éxito los requerimientos de los clientes y manteniendo altos estándares de servicio y calidad."
+    }
+  ],
+  "educacion": [
+    {
+      "titulo": "Técnico Profesional en Análisis y Desarrollo de Software",
+      "institucion": "CENSA",
+      "ubicacion": "Medellín, Colombia",
+      "periodo": "Agosto 2022 – Junio 2025"
+    },
+    {
+      "titulo": "Tecnólogo en Producción Gráfica",
+      "institucion": "SENA",
+      "ubicacion": "Medellín, Colombia",
+      "periodo": "Enero 2012 – Junio 2015"
+    }
+  ],
+  "certificaciones": [
+    "Google Cloud Fundamentals: Core Infrastructure – Coursera",
+    "Architecting with Google Kubernetes Engine – Coursera",
+    "Seguridad Informática – CENSA",
+    "Introducción a C++ – Udemy",
+    "Python Essentials 1 – Cisco (MinTIC)",
+    "Metodologías Ágiles – Universidad Católica de Oriente (Comfama)",
+    "Introducción a la IA Moderna – Cisco (MinTIC)"
+  ],
+  "habilidades_tecnicas": {
+    "lenguajes": ["JavaScript (ES6+)", "PHP", "CSS", "Python"],
+    "frameworks_y_librerias": ["CodeIgniter 4", "Bootstrap", "React (en aprendizaje)", "Tailwind"],
+    "bases_de_datos": ["MySQL"],
+    "herramientas": ["Git", "Linux", "Docker", "DOMPDF", "PHPSpreadsheet"],
+    "metodologias": ["Kanban", "Scrum (Desarrollo Ágil)"]
+  },
+  "idiomas": {
+    "español": "Nativo",
+    "inglés": "A2(actualmente cursando nivel B1)"
+  },
+  "habilidades_blandas": [
+    "Resolución de problemas",
+    "Pensamiento analítico",
+    "Trabajo en equipo y comunicación efectiva",
+    "Adaptabilidad y aprendizaje constante",
+    "Creatividad e innovación"
+  ],
+  "objetivos": "Seguir aprendiendo y creciendo profesionalmente en el desarrollo de software, mejorar el nivel de inglés y participar en proyectos que integren tecnología y diseño.",
+  "projects": [
+    
+   { "name": "ChatBot",
+    "description": "Un chatbot moderno desarrollado con FastAPI, TypeScript y React.",
+    "technologies": {
+      "backend": {
+        "framework": "FastAPI",
+        "language": "Python",
+        "purpose": "Manejo de la lógica del servidor, rutas API y procesamiento de solicitudes."
+      },
+      "frontend": {
+        "framework": "React",
+        "language": "TypeScript",
+        "purpose": "Interfaz de usuario interactiva y dinámica."
+      }
+    },
+    "features": [
+      "Procesamiento rápido de peticiones REST",
+      "Interfaz amigable hecha en React",
+      "Código seguro y tipado gracias a TypeScript",
+      "Desplegable en entornos cloud o locales"
+    ],
+    "version": "1.0.0",
+    "author": "edwin jimenez"
+},
+{
+  "name": "Juego de Verbos Irregulares en Inglés",
+  "description": "Aplicación interactiva creada con React y JavaScript para practicar los verbos irregulares en inglés mediante ejercicios de escritura y opción múltiple.",
+  "technologies": {
+    "frontend": {
+      "framework": "React",
+      "language": "JavaScript",
+      "purpose": "Interfaz interactiva que permite al usuario practicar los verbos irregulares con retroalimentación inmediata."
+    }
+  },
+  
+  "version": "1.0.2",
+  "author": "Edwin jimenez",
+  "status": "En Constante evolución",
+  "license": "MIT"
+},
+{
+  "name": "Buscador de Clima",
+  "description": "Aplicación web simple hecha con HTML, CSS y JavaScript puro que permite buscar el clima actual de una ciudad y mostrar su ubicación en un mapa interactivo.",
+  "technologies": {
+    "frontend": {
+      "languages": ["HTML", "CSS", "JavaScript"],
+      "purpose": "Proveer una interfaz ligera que muestra el clima y la localización sin necesidad de frameworks."
+    },
+    "apis": {
+      "weather": {
+        "name": "OpenWeatherMap API",
+        "purpose": "Obtener los datos meteorológicos actuales (temperatura, humedad, descripción, icono del clima)."
+      },
+      "maps": {
+        "name": "Leaflet API",
+        "purpose": "Mostrar un mapa interactivo con la ubicación de la ciudad consultada."
+      }
+    }
+  },
+  "features": [
+    "Búsqueda de clima por nombre de ciudad.",
+    "Muestra la temperatura y descripción del clima.",
+    "Mapa interactivo con marcador en la ubicación consultada.",
+    "Diseño responsivo con HTML y CSS puro.",
+    "Uso de fetch() para consumir las APIs sin dependencias externas."
+  ],
+  "version": "1.0.0",
+  "author": "Edwin jimenez",
+  "status": "Finalizado",
+  "license": "MIT"
+},
+{
+  "name": "Linker Gamer",
+  "description": "Página web personal tipo 'link in bio' creada con HTML, CSS y JavaScript, diseñada especialmente para gamers que desean centralizar sus enlaces a redes sociales, plataformas de streaming y comunidades.",
+  "technologies": {
+    "frontend": {
+      "languages": ["HTML", "CSS", "JavaScript"],
+      "purpose": "Crear una interfaz visual atractiva y responsiva para mostrar los enlaces de redes sociales y plataformas de juego."
+    }
+  },
+  "features": [
+    "Diseño tipo tarjeta con enlaces personalizables.",
+    "Enlaces directos a redes sociales, canales de YouTube, Twitch, Discord y más.",
+    "Animaciones y efectos visuales con CSS y JavaScript.",
+    "Diseño responsivo adaptado a dispositivos móviles.",
+    "Posibilidad de cambiar colores, íconos y temas fácilmente."
+  ],
+  "version": "1.0.0",
+  "author": "Edwin jimenez",
+  "status": "Finalizado",
+  "license": "MIT"
+}
+
+
+]
+}
+
+

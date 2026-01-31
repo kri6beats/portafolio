@@ -1,16 +1,16 @@
 type HeaderProps = {
-    title: string,
+    tittle: string,
     
 }
 type FooterProps = {
     img: React.ReactNode;
 }
 
-export function Header({title,}: HeaderProps){
+export function Header({tittle,}: HeaderProps){
     return(
       <div>
         <header className="header">
-            <h1>{title}</h1>
+            <h1>{tittle}</h1>
             
         </header>
       </div>  

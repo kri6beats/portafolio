@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #0f0f1a, #25253f, #3e2658, #2a2585);
+  background: linear-gradient(110deg, #0f0f1a, #25253f, #3e2658, #2a2585);
   background-size: 400% 400%;
   animation: gradientBackground 15s ease infinite;
   color: #f0f0f0;
@@ -12,6 +12,7 @@ body {
   50% {background-position: 100% 50%;}
   100% {background-position: 0% 50%;}
 }
+
 
 .app {
   max-width: 1200px;
@@ -32,7 +33,7 @@ body {
   max-width: 350px;
   padding: 1.5rem;
   margin: 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 15px;
   background: linear-gradient(145deg, #1e1e2f, #4c4ce4);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
@@ -70,7 +71,7 @@ body {
   flex-direction: row;    
   justify-content: center;
   align-items: center;    
-  gap: 0.5rem;            
+  gap: 0.2rem;            
   margin-top: 1rem;
 }
 
@@ -81,3 +82,159 @@ body {
   object-fit: contain;
   border-radius: 50%;  
 }
+
+/* === ENCABEZADO Y TÍTULO PRINCIPAL === */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #f8f9fa;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(90deg, #ff007a, #00e5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glowText 3s ease-in-out infinite alternate;
+}
+
+@keyframes glowText {
+  from {
+    text-shadow: 0 0 10px #ff007a, 0 0 20px #00e5ff;
+  }
+  to {
+    text-shadow: 0 0 20px #ff007a, 0 0 40px #00e5ff;
+  }
+}
+
+/* Subtítulo bajo el encabezado */
+.subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #d6d6ff;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.85;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === DESCRIPCIÓN DENTRO DE LAS CARDS === */
+.card p {
+  color: #e0e0ff;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-top: 0.8rem;
+  opacity: 0.9;
+}
+
+/* === ÍCONOS DE TECNOLOGÍAS === */
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.tech-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 6px #7dd3fc);
+}
+
+/* === BOTONES DE CADA CARD === */
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.3rem;
+}
+
+.btn-demo,
+.btn-code {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  color: #fff;
+  background: linear-gradient(135deg, #4c4ce4, #8e2de2);
+  box-shadow: 0 0 10px rgba(142, 45, 226, 0.4);
+}
+
+.btn-demo:hover,
+.btn-code:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(142, 45, 226, 0.8);
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .card {
+    margin: 1rem;
+  }
+
+  .btn-demo,
+  .btn-code {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+.icon{
+  margin-right: 0.3rem;
+}
+
+
+.biography{
+  display: flex;
+  flex-direction: column;
+  padding:0.3rem;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 2.rem;
+  
+}
+.biography h3 {
+  font-size: 2.5rem;
+  color:#8e2de2
+}
+ 
+.biography p {
+  font: size 2.5rem; 
+  text-align: center;
+  margin: 0%;
+  color: #69dae6;
+  width:30%;
+  
+  }
+.subtitle-header h3{
+  margin-top: 2.1rem ;
+    font-size: 2.1rem;
+  color:#8e2de2
+}
+.subtitle-header{
+    display: flex;
+    flex-direction: column;
+    padding:0.3rem;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 2.5rem;}

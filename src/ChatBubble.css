@@ -7,12 +7,12 @@
   position: relative;
 }
 
-/* NPC estilo RPG */
+
 .chat-bubble.npc {
   background: #1e1e2f;
   color: #8ecae6;
-  border: 2px solid #8ecae6;
-  font-family: "Press Start 2P", cursive; /* fuente pixel opcional */
+  border: 2px solid #e6da8e;
+  font-family: "Press Start 2P", cursive; 
   box-shadow: 0 0 10px #8ecae6;
 }
 
@@ -25,7 +25,6 @@
   border-top-color: #1e1e2f;
 }
 
-/* Jugador */
 .chat-bubble.player {
   background: #4c4ce4;
   color: white;
@@ -43,7 +42,7 @@
   border-top-color: #4c4ce4;
 }
 
-/* Sistema futurista tipo HUD */
+
 .chat-bubble.system {
   background: rgba(0, 255, 255, 0.1);
   border: 2px solid cyan;
