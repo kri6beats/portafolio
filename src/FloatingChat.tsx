@@ -27,7 +27,7 @@ useEffect(() => {
     setMessages((prev) => [...prev, { text: input, sender: "player" }]);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/bot", {
+      const res = await fetch("https://portafolio-cyzd.onrender.com/bot", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: input }),
