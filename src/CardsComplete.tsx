@@ -1,6 +1,15 @@
 
 import { Card } from "./Card";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+library.add(fas, far, fab);
 
 
 import mapImage from "./assets/map.png";
@@ -13,15 +22,7 @@ import iconjs from "./icon/js.png";
 import iconreact from "./icon/react.png";
 import icontailwind from "./icon/iconTailwind.png";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons';
-
-import { library } from '@fortawesome/fontawesome-svg-core';
-
-library.add(fas, far, fab);
 
 const linker = "https://kri6beats.github.io/linker_gamer/";
 const mapa = "https://kri6beats.github.io/mapa_myvirtual/";
@@ -103,12 +104,13 @@ export function CardsCompletes() {
                     description="Interactive educational game developed with React and Tailwind CSS to practice irregular English verbs."
                     img={irregular}
                 >
-                <div className="foot-card-organize"></div>
-                    <div className="tech-icons">
-                        <img src={iconhtml} alt="icon-html" />
-                        <img src={icontailwind} alt="icon-tailwind" />
-                        <img src={iconreact} alt="icon-react" />
-                        <img src={iconjs} alt="icon-js" />
+                <div className="foot-card-organize">
+                        <div className="tech-icons">
+                            <img src={iconhtml} alt="icon-html" />
+                            <img src={icontailwind} alt="icon-tailwind" />
+                            <img src={iconreact} alt="icon-react" />
+                            <img src={iconjs} alt="icon-js" />
+                        </div>
 
                         <div className="project-buttons">
                             <a href={game} target="_blank" rel="noopener noreferrer" className="btn-demo">
@@ -126,6 +128,7 @@ export function CardsCompletes() {
                             </a>
                         </div>
                     </div>
+
 
                 </Card>
             </div>

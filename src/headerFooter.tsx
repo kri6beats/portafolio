@@ -3,7 +3,9 @@ type HeaderProps = {
     
 }
 type FooterProps = {
-    img: React.ReactNode;
+    description: string;
+    children?: React.ReactNode;
+    
 }
 
 export function Header({tittle,}: HeaderProps){
@@ -15,6 +17,17 @@ export function Header({tittle,}: HeaderProps){
         </header>
       </div>  
     )
+}
+
+export function Footer({ description, children }: FooterProps) {
+  return (
+    <footer className="footer">
+      <p>{description}</p>
+      <div className="footer-icon">
+        {children}
+      </div>
+    </footer>
+  );
 }
 
 

@@ -32,16 +32,17 @@
 
 .footer {
   width: 100%;
-  padding: 1rem;
-  background-color: #1a1a2e;
+  display: flex;
+  text-align: center;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  background-color: #2c1a6b;
   color: #cdb4db;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
-  font-size: 0.9rem;
+  font-size: 1.0rem;
+  padding: 2rem;
 }
 
 .footer a {
