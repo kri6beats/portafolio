@@ -6,7 +6,7 @@ import { Biography, Subtittle } from "./Biography";
 
 import { CardsCompletes } from "./cards/CardsComplete";
 
-import { OrbitIcon } from "./orbit/Orbit";
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -18,11 +18,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { TechStackCard } from "./sections/techStackCards";
 import { ExperienceCard } from "./sections/experienceCards";
 
-import reactIcon from "./assets/icon/react.png";
-import pythonIcon from "./assets/icon/python.svg";
-import phpIcon from "./assets/icon/php_dark.svg";
-import htmlIcon from "./assets/icon/html.png";
-import typescriptIcon from "./assets/icon/typescript.png";
+
 import pcImage from "./assets/icon/orbit-pc.png";
 
 library.add(fas, far, fab);
