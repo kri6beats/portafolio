@@ -74,7 +74,7 @@
 .project-buttons {
   display: flex;
   justify-content: center;
-
+  
   gap: 1rem;
 
   margin-top: 1.5rem;
@@ -131,4 +131,19 @@
   .projects-title {
     font-size: 1.5rem;
   }
+}
+.btn-demo,
+.btn-code {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-demo:visited,
+.btn-code:visited {
+  color: #fff;
+}
+
+.btn-demo:hover,
+.btn-code:hover {
+  color: #fff;
 }
