@@ -1,7 +1,7 @@
 import React, { useState,useRef, useEffect } from "react";
 import { ChatBubble } from "./Bubble";
 import "./FloatingChats.css";
-import AI from "./assets/AI.png";
+import AI from "../assets/AI.png";
 
 type Message = {
   text: string;

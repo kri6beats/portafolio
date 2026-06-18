@@ -1,0 +1,61 @@
+
+
+.orbit-container {
+  position: relative;
+
+  width: clamp(320px, 42vw, 650px);
+  height: clamp(320px, 42vw, 650px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  --orbit-radius: clamp(120px, 16vw, 220px);
+}
+
+
+
+.orbit-center {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -45%);
+
+  
+ width: clamp(320px, 35vw, 560px);
+ height: clamp(320px, 35vw, 560px);
+
+ animation: float 6s ease-in-out infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.orbit-glow {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 70%;
+  height: 70%;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(162,89,255,.35),
+      transparent 70%
+    );
+
+  filter: blur(50px);
+
+  z-index: 0;
+}
+

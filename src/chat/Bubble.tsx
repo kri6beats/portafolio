@@ -1,5 +1,5 @@
 import React from "react";
-import "./ChatBubble.css";
+import "./FloatingChats.css";
 
 type ChatBubbleProps = {
   text: string;

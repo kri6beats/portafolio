@@ -1,0 +1,196 @@
+
+
+.extras-section {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 0 1rem 4rem;
+}
+
+.extras-grid {
+  width: 100%;
+  max-width: 70rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 2rem;
+}
+
+
+
+.extra-card {
+  position: relative;
+
+  min-height: clamp(10rem, 16vw, 14rem);
+
+  overflow: hidden;
+
+  border-radius: 1rem;
+
+  padding: 1.5rem;
+
+  background: rgba(255, 255, 255, 0.03);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.extra-card h3 {
+  margin: 0 0 1rem 0;
+
+  text-align: center;
+
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+
+  font-weight: 600;
+
+  color: #ffffff;
+
+  z-index: 2;
+}
+
+
+
+.extra-content {
+  position: relative;
+
+  flex: 1;
+  
+  overflow: hidden;
+
+  -webkit-mask-image: linear-gradient(
+    to top,
+    black 80%,
+    transparent 100%
+  );
+
+  mask-image: linear-gradient(
+    to top,
+    black 80%,
+    transparent 100%
+  );
+}
+
+
+
+
+.tech-slider {
+  display: flex;
+  
+  
+  align-items: center;
+  
+
+  gap: clamp(1rem, 2vw, 2rem);
+
+  width: max-content;
+
+  animation: scroll-x 40s linear infinite;
+}
+
+.tech-icon {
+  width: clamp(2.5rem, 4vw, 4rem);
+  height: clamp(2.5rem, 4vw, 4rem);
+
+  object-fit: contain;
+
+  flex-shrink: 0;
+
+  transition: transform .5s ease;
+}
+
+.tech-icon:hover {
+  transform: scale(1.1);
+}
+
+
+
+.experience-slider {
+  display: flex;
+  flex-direction: column;
+  max-height: 10rem;
+  gap: 1rem;
+
+  animation: scroll-y 20s linear infinite;
+
+}
+.experience-item {
+  padding: 1rem;
+
+  border-radius: 0.9rem;
+
+  background: rgba(255, 255, 255, 0.04);
+
+  border: 1px solid rgba(255, 255, 255, 0.06);
+
+  color: #d8d8d8;
+
+  line-height: 1.5;
+}
+
+
+
+
+@keyframes scroll-x {
+
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+
+}
+
+@keyframes scroll-y {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+
+
+
+@media (max-width: 900px) {
+
+  .extras-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .extra-card {
+    min-height: 18rem;
+  }
+
+}
+
+
+
+@media (max-width: 600px) {
+
+  .extras-section {
+    padding: 0 1rem 3rem;
+  }
+
+  .extra-card {
+    min-height: 16rem;
+
+    padding: 1rem;
+  }
+
+  .experience-item {
+    padding: 0.8rem;
+  }
+
+}
