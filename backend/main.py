@@ -45,7 +45,7 @@ Be brief, clear, and direct.
 """
 context_prompt = f"""
 The following is background information.
-It may be written in Spanish.
+It may be written in Spanish.c
 Use it only as reference.
 Do NOT change your reply language.
 Do NOT translate it unless explicitly asked.
@@ -60,7 +60,7 @@ if not apiKey:
 client = Cerebras(api_key=apiKey)
 
 
-model = "llama3.1-8b"
+model = "Gemma 4 31b"
 
 @app.get("/")
 async def root():
